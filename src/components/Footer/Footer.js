@@ -1,10 +1,53 @@
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
-function Footer() {
+const Footer = () => {
   return (
-    <div className="App">
-    </div>
+    <footer className="footer">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <h5>Contact Information</h5>
+            <ul>
+              <li>
+                Email: <a href="mailto:email@example.com">email@example.com</a>
+              </li>
+              <li>Phone: 555-555-5555</li>
+              <li>Address: 123 Main St, Anytown, USA</li>
+            </ul>
+          </div>
+          <div className="col-md-4">
+            <h5>References and Further Reading</h5>
+            <ul>
+              <li>
+                <a href="#">Reference page</a>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-4">
+            <h5>Individual Group Member Pages</h5>
+            <ul>
+              <li>
+                <a href="#">Rakesh Ranga Buram</a>
+              </li>
+              <li>
+                <a href="#">Ajith Akuthota</a>
+              </li>
+              <li>
+                <a href="#">Kasi Viswanadh Mogali</a>
+              </li>
+              <li>
+                <a href="#">Annes Shaik</a>
+              </li>
+              <li>
+                <a href="#">Bhavana Unnam</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   );
-}
+};
 
 export default Footer;
