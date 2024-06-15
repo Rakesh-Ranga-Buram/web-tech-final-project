@@ -9,22 +9,24 @@ import { Nanoservices } from "./pages/Nanoservices";
 import { IotEdgeCloud } from "./pages/IotEdgeCloud";
 import { CaseStudies } from "./pages/CaseStudies";
 import { Conclusion } from "./pages/Conclusion";
+import { References } from "./pages/References";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div id="root">
+      <ScrollToTop />
       <Header />
       <main>
-        <div className="container">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/microservices" element={<Microservices />} />
-            <Route path="/nanoservices" element={<Nanoservices />} />
-            <Route path="/iot-edge-cloud" element={<IotEdgeCloud />} />
-            <Route path="/case-studies" element={<CaseStudies />} />
-            <Route path="/conclusion" element={<Conclusion />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/microservices" element={<Microservices />} />
+          <Route path="/nanoservices" element={<Nanoservices />} />
+          <Route path="/iot-edge-cloud" element={<IotEdgeCloud />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/conclusion" element={<Conclusion />} />
+          <Route path="/references" element={<References />} />
+        </Routes>
       </main>
       <Footer />
     </div>
