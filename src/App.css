@@ -44,10 +44,6 @@ body {
   }
 }
 
-main {
-  height: 100vh;
-}
-
 .common-page-header {
   height: 224px;
   background: #f5f5f5;
