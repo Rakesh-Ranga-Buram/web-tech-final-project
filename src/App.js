@@ -11,10 +11,11 @@ import { CaseStudies } from "./pages/CaseStudies";
 import { Conclusion } from "./pages/Conclusion";
 import { References } from "./pages/References";
 import ScrollToTop from "./components/ScrollToTop";
+import { Rakesh } from "./pages/Rakesh";
 
 function App() {
   return (
-    <div id="root">
+    <>
       <ScrollToTop />
       <Header />
       <main>
@@ -26,10 +27,11 @@ function App() {
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/conclusion" element={<Conclusion />} />
           <Route path="/references" element={<References />} />
+          <Route path="/rakesh" element={<Rakesh />} />
         </Routes>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 

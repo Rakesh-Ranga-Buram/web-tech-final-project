@@ -29,7 +29,7 @@ const Footer = () => {
             <h5>Individual Group Member Pages</h5>
             <ul>
               <li>
-                <a href="#">Rakesh Ranga Buram</a>
+                <Link to="/rakesh">Rakesh Ranga Buram</Link>
               </li>
               <li>
                 <a href="#">Ajith Akuthota</a>
