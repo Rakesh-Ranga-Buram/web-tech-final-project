@@ -12,6 +12,7 @@ import { Conclusion } from "./pages/Conclusion";
 import { References } from "./pages/References";
 import ScrollToTop from "./components/ScrollToTop";
 import { Rakesh } from "./pages/Rakesh";
+import { Ajith } from "./pages/Ajith";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/conclusion" element={<Conclusion />} />
           <Route path="/references" element={<References />} />
           <Route path="/rakesh" element={<Rakesh />} />
+          <Route path="/ajith" element={<Ajith />} />
         </Routes>
       </main>
       <Footer />

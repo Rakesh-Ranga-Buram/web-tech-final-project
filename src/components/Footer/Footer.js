@@ -32,7 +32,7 @@ const Footer = () => {
                 <Link to="/rakesh">Rakesh Ranga Buram</Link>
               </li>
               <li>
-                <a href="#">Ajith Akuthota</a>
+                <Link to="/ajith">Ajith Akuthota</Link>
               </li>
               <li>
                 <a href="#">Kasi Viswanadh Mogali</a>
