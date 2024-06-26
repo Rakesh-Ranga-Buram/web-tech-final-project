@@ -88,3 +88,59 @@ body {
     font-size: 44px;
   }
 }
+
+.collapsible_wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+details.collapsible_details {
+  box-sizing: border-box;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+summary.collapsible_summary {
+  padding: 23px 16px;
+  padding-right: 40px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.collapsible_summary_wrapper {
+  padding: 23px 16px;
+  padding-right: 40px;
+}
+
+details.collapsible_details summary.collapsible_summary::after {
+  content: "\002B";
+  position: absolute;
+  right: 1%;
+  transform: rotate(0);
+  color: #777;
+  font-weight: lighter;
+  font-size: xx-large;
+}
+
+details.collapsible_details:hover > summary.collapsible_summary::after {
+  content: "\002B";
+  position: absolute;
+  font-weight: lighter;
+  font-size: xx-large;
+}
+
+details[open].collapsible_details > summary.collapsible_summary::after {
+  content: "\2212";
+  transform: rotate(0deg);
+  font-weight: lighter;
+  font-size: xx-large;
+}
+
+details[open].collapsible_details > summary.collapsible_summary:hover::after {
+  content: "\2212";
+  font-weight: lighter;
+  font-size: xx-large;
+}

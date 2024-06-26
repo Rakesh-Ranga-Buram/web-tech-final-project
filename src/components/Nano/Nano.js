@@ -4,8 +4,8 @@ import "./Nano.css";
 function Nano() {
   return (
     <>
-      <div class="common-page-header">
-        <div class="body_container ">
+      <div className="common-page-header">
+        <div className="body_container ">
           <h1 className="head_page">Nanoservices</h1>
         </div>
       </div>

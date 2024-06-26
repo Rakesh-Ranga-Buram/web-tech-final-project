@@ -30,7 +30,7 @@ function Profile(props) {
 
       <section id="about">
         <p className="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
+        <h1 className="title">About Me</h1>
         <p className="bio">{about}</p>
       </section>
 
