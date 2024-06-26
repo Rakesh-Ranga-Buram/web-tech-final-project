@@ -10,7 +10,7 @@ import agnosticism from "../../assets/agnosticism.jpg";
 function Intro() {
   return (
     <div className="body_container">
-      <div className="iot">
+      <div className="intro">
         <div>
           <h1>Introduction</h1>
           <div>

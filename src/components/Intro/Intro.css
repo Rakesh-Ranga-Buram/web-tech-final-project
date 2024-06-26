@@ -1,4 +1,4 @@
-.iot {
+.intro {
   font-size: 18px;
   align-items: center;
   display: flex;
@@ -8,12 +8,12 @@
 }
 
 @media (max-width: 767px) {
-  .iot {
+  .intro {
     flex-direction: column;
   }
 }
 
-.iot img {
+.intro img {
   width: 25%;
 }
 
