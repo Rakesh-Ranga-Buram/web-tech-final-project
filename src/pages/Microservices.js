@@ -1,3 +1,5 @@
+import Micro from "../components/Micro/Micro";
+
 export function Microservices() {
-    return <h1>Microservices</h1>
+  return <Micro />;
 }

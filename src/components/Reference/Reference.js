@@ -252,16 +252,18 @@ function Reference() {
           <h1 className="head_page">References</h1>
         </div>
       </div>
-      <div className="references">
-        <ol className="references-list">
-          {referencesData.map((reference, index) => (
-            <li key={index}>
-              <Link to={reference.path} target="_blank">
-                {reference.title}
-              </Link>
-            </li>
-          ))}
-        </ol>
+      <div className="body_container">
+        <div className="references">
+          <ol className="references-list">
+            {referencesData.map((reference, index) => (
+              <li key={index}>
+                <Link to={reference.path} target="_blank">
+                  {reference.title}
+                </Link>
+              </li>
+            ))}
+          </ol>
+        </div>
       </div>
     </>
   );

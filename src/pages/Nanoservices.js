@@ -1,3 +1,5 @@
+import Nano from "../components/Nano/Nano";
+
 export function Nanoservices() {
-    return <h1>Nanoservices</h1>
+  return <Nano />;
 }

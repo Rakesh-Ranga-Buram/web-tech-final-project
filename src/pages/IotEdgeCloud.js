@@ -1,3 +1,5 @@
+import Iot from "../components/Iot/Iot";
+
 export function IotEdgeCloud() {
-    return <h1>IotEdgeCloud</h1>
+  return <Iot />;
 }
