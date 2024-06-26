@@ -35,13 +35,13 @@ const Footer = () => {
                 <Link to="/ajith">Ajith Akuthota</Link>
               </li>
               <li>
-                <a href="#">Kasi Viswanadh Mogali</a>
+                <Link to="/kasi">Kasi Viswanadh Mogali</Link>
               </li>
               <li>
-                <a href="#">Annes Shaik</a>
+                <Link to="/annes">Annes Shaik</Link>
               </li>
               <li>
-                <a href="#">Bhavana Unnam</a>
+                <Link to="/bhavana">Bhavana Unnam</Link>
               </li>
             </ul>
           </div>
