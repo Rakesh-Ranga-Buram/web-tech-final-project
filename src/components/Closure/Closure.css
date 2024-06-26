@@ -12,6 +12,12 @@
   margin: 0 40px;
 }
 
+@media (max-width: 767px) {
+  .block {
+    margin: 0 10px;
+  }
+}
+
 .block:before,
 .block:after {
   content: "";
